@@ -48,7 +48,7 @@ function printQuote($quotes)  // Print Quote HTML Function
 
    
    
-    if ($quoteCitation  != null AND $quoteYear != null AND $quoteTag != null){                      // Conditionals for displaying various combinatiosns of Citation/year/Tag
+    if ($quoteCitation  != null AND $quoteYear != null AND $quoteTag != null){                      // Conditionals for displaying various combinatiosns of Citation/year/Tags
         $html_finalQuote = $html_finalQuote;
         $html_finalQuote .= $html_citationOpen . $quoteCitation . $html_citationYearClose;
         $html_finalQuote .= $html_yearOpen . $quoteYear . $html_citationYearClose;
